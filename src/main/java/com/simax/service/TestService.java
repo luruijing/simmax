@@ -20,7 +20,7 @@ public class TestService {
 	private JdbcTemplate jdbcTemplate;
 	
 	public List<Map<String, Object>> queryTest(){
-		String sql = "select * from device";
+		String sql = "select * from user";
 		return jdbcTemplate.queryForList(sql);
 	}
 	
