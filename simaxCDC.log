@@ -1,0 +1,33 @@
+2019-07-23 15:45:15.604  INFO 10780 --- [restartedMain] com.simax.App                            : Starting App on simax-xdeng with PID 10780 (D:\workspace\simaxCDC\target\classes started by simax in D:\workspace\simaxCDC)
+2019-07-23 15:45:15.605  INFO 10780 --- [restartedMain] com.simax.App                            : No active profile set, falling back to default profiles: default
+2019-07-23 15:45:15.896  INFO 10780 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@86edfe: startup date [Tue Jul 23 15:45:15 CST 2019]; root of context hierarchy
+2019-07-23 15:45:16.676  INFO 10780 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1def9858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 15:45:16.921  INFO 10780 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8888 (http)
+2019-07-23 15:45:16.929  INFO 10780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-07-23 15:45:16.930  INFO 10780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-07-23 15:45:17.034  INFO 10780 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-23 15:45:17.034  INFO 10780 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1139 ms
+2019-07-23 15:45:17.129  INFO 10780 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-23 15:45:17.132  INFO 10780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-23 15:45:17.133  INFO 10780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-23 15:45:17.133  INFO 10780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-23 15:45:17.133  INFO 10780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-23 15:45:17.461  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@86edfe: startup date [Tue Jul 23 15:45:15 CST 2019]; root of context hierarchy
+2019-07-23 15:45:17.503  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.simax.controller.CommoController.index()
+2019-07-23 15:45:17.504  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/queryTest]}" onto public java.lang.String com.simax.controller.TestController.queryTest()
+2019-07-23 15:45:17.504  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/show],methods=[GET]}" onto private java.lang.String com.simax.controller.TestController.show(java.lang.String,int,org.springframework.ui.ModelMap)
+2019-07-23 15:45:17.504  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.simax.controller.TestController.test()
+2019-07-23 15:45:17.506  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-23 15:45:17.506  INFO 10780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-23 15:45:17.535  INFO 10780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-23 15:45:17.535  INFO 10780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-23 15:45:17.564  INFO 10780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-23 15:45:17.943  INFO 10780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-23 15:45:17.985  INFO 10780 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-07-23 15:45:18.019  INFO 10780 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8888 (http)
+2019-07-23 15:45:18.025  INFO 10780 --- [restartedMain] com.simax.App                            : Started App in 2.692 seconds (JVM running for 2.916)
+2019-07-23 15:45:25.026  INFO 10780 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-23 15:45:25.027  INFO 10780 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-23 15:45:25.059  INFO 10780 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2019-07-23 15:49:54.937  INFO 10780 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@86edfe: startup date [Tue Jul 23 15:45:15 CST 2019]; root of context hierarchy
+2019-07-23 15:49:54.939  INFO 10780 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
